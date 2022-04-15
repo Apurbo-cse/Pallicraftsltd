@@ -324,17 +324,15 @@
         <!--/ End Header Inner -->
     </header>
     <!--/ End Header -->
-    <!-- Slider Area -->
 
-    <!-- Breadcrumbs -->
     <div class="breadcrumbs">
         <div class="container">
             <div class="row">
                 <div class="col-12">
                     <div class="bread-inner">
                         <ul class="bread-list">
-                            <li><a href="index1.html">Home<i class="ti-arrow-right"></i></a></li>
-                            <li class="active"><a href="blog-single.html">About Us</a></li>
+                            <li><a href="http://127.0.0.1:8000">Home<i class="ti-arrow-right"></i></a></li>
+                            <li class="active"><a href="javascript:void(0);">Login</a></li>
                         </ul>
                     </div>
                 </div>
@@ -343,149 +341,60 @@
     </div>
     <!-- End Breadcrumbs -->
 
-    <!-- About Us -->
-    <section class="about-us section">
+    <!-- Shop Login -->
+    <section class="shop login section">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 col-12">
-                    <div class="about-content">
-                        <h3>Welcome To <span>Pallicrafts LTD.</span></h3>
-                        <p style="text-align: justify;">The start of our moral journey was in the February of 2019, and
-                            since then we have strived to empower talented artisans throughout the country, so
-                            that they are able to showcase what they possess.
-                            Our centers aim to achieve a sustainable business by adhering to fair-trade rules.
-                            Together with the artisans and our knowledgeable team members, we are working towards
-                            the goal of taking the art of Bangladeshi handicrafts to another level.
-                            To get started on our vision of evolving Bangladeshi artisans and reviving the rich,
-                            traditional skills of this country, we have set goals and objectives that we continuously
-                            work on to reach. From maintaining fair-trade principles to supporting our artisans through
-                            various means, we have been creative and ethical at every step of the way. For our artisans,
-                            we provide training and ideas on the principles of fair-trade as well as help them with
-                            financial
-                            needs. To make them further independent, health education and medical support are also in
-                            the works
-                            to be provided.</p>
-
-                    </div>
-                </div>
-
-                <div class="col-lg-6 col-12">
-                    <div class="about-img overlay">
-
-                        <img src=" assets/img/IMG_2384.JPG" alt=" assets/img/IMG_2384.JPG">
-                    </div>
-                </div>
-
-                <div class="row">
-
-                    <div class=" col-12">
-                        <div class="about-content">
-
-                            <p>
-                                <p style="text-align: justify;">Palli Crafts Limited was established with the help of
-                                    around
-                                    350 artisans from different villages and urban areas. Operating in Dhaka, Savar,
-                                    Tongi,
-                                    Jamalpur, Bogra and Kurigram, our products include handicrafts made of jute,
-                                    leather,
-                                    ceramic, paper, fabric, terracotta, wood and etc. With a diverse range of both
-                                    textile
-                                    and non-textile products, Palli Crafts Limited works tirelessly to protect the rare
-                                    culture of handicrafts and provide better lives for the artisans who make it
-                                    possible.
-                                </p>
-                                <p style="text-align: justify;">Palli Crafts is working hard to satisfy customers by
-                                    providing quality and sophisticated products. We design and produce our collection
-                                    as
-                                    well as we also develop the customized designs and keep them exclusive. We are
-                                    currently
-                                    exporting to Japan, Sweden, Italy, Germany, Australia and United Kingdom.</p>
-                                <div style="text-align: justify;"><br></div>
-                            </p>
-                            <div class="button">
-                                <a href="https://pallicraftsltd.com/blog" class="btn">Our Blog</a>
-                                <a href="https://pallicraftsltd.com/contact" class="btn primary">Contact Us</a>
+                <div class="col-lg-6 offset-lg-3 col-12">
+                    <div class="login-form">
+                        <h2>Register</h2>
+                        <p>Please register in order to checkout more quickly</p>
+                        <!-- Form -->
+                        <form class="form" method="post" action="http://127.0.0.1:8000/user/register">
+                            <input type="hidden" name="_token" value="12r2cwnh3zeJJFofOqhlhvP81ejUZfpXFdCeoWsv">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <label>Your Name<span>*</span></label>
+                                        <input type="text" name="name" placeholder="" required="required" value="">
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <label>Your Email<span>*</span></label>
+                                        <input type="text" name="email" placeholder="" required="required" value="">
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <label>Your Password<span>*</span></label>
+                                        <input type="password" name="password" placeholder="" required="required"
+                                            value="">
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <label>Confirm Password<span>*</span></label>
+                                        <input type="password" name="password_confirmation" placeholder=""
+                                            required="required" value="">
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-group login-btn">
+                                        <button class="btn" type="submit">Register</button>
+                                        <a href="http://127.0.0.1:8000/user/login" class="btn">Login</a>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
+                        </form>
+                        <!--/ End Form -->
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- End About Us -->
+    <!--/ End Login -->
 
-    <!-- Start Team -->
-
-    <!--/ End Team Area -->
-
-    <!-- Start Shop Services Area -->
-    <section class="shop-services section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-6 col-12">
-                    <!-- Start Single Service -->
-                    <div class="single-service">
-                        <i class="ti-rocket"></i>
-                        <h4>Free shiping</h4>
-                        <p>Orders over $100</p>
-                    </div>
-                    <!-- End Single Service -->
-                </div>
-                <div class="col-lg-3 col-md-6 col-12">
-                    <!-- Start Single Service -->
-                    <div class="single-service">
-                        <i class="ti-reload"></i>
-                        <h4>Free Return</h4>
-                        <p>Within 30 days returns</p>
-                    </div>
-                    <!-- End Single Service -->
-                </div>
-                <div class="col-lg-3 col-md-6 col-12">
-                    <!-- Start Single Service -->
-                    <div class="single-service">
-                        <i class="ti-lock"></i>
-                        <h4>Sucure Payment</h4>
-                        <p>100% secure payment</p>
-                    </div>
-                    <!-- End Single Service -->
-                </div>
-                <div class="col-lg-3 col-md-6 col-12">
-                    <!-- Start Single Service -->
-                    <div class="single-service">
-                        <i class="ti-tag"></i>
-                        <h4>Best Peice</h4>
-                        <p>Guaranteed price</p>
-                    </div>
-                    <!-- End Single Service -->
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End Shop Services Area -->
-
-    <!-- Start Shop Newsletter  -->
-    <section class="shop-newsletter section">
-        <div class="container">
-            <div class="inner-top">
-                <div class="row">
-                    <div class="col-lg-8 offset-lg-2 col-12">
-                        <!-- Start Newsletter Inner -->
-                        <div class="inner">
-                            <h4>Newsletter</h4>
-                            <p> Subscribe to our newsletter and get <span>10%</span> off your first purchase</p>
-                            <form action="subscribe" method="post" class="newsletter-inner">
-                                <input type="hidden" name="_token" value="WIPeOVF1KXapY14gtfRWQ3Vq45IWmKyviGUdsnNx">
-                                <input name="email" placeholder="Your email address" required="" type="email">
-                                <button class="btn" type="submit">Subscribe</button>
-                            </form>
-                        </div>
-                        <!-- End Newsletter Inner -->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End Shop Newsletter -->
     <!-- Start Footer Area -->
     <footer class="footer">
         <!-- Footer Top -->
