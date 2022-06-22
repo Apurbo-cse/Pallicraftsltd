@@ -1,10 +1,11 @@
+
 <!DOCTYPE html>
 <html lang="zxx">
 
 <head>
     <!-- Meta Tag -->
     <!-- Title Tag  -->
-    <title>Pallicrafts || HOME PAGE</title>
+    <title>Pallicrafts || Blog Page</title>
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="images/favicon.png">
     <!-- Web Font -->
@@ -63,56 +64,13 @@
             margin-top: 0px;
             margin-left: 0px;
         }
-
-        /*
     </style>
-    <script type='text/javascript'
-        src='https://platform-api.sharethis.com/js/sharethis.js#property=5f2e5abf393162001291e431&product=inline-share-buttons'
-        async='async'></script>
-    <script type='text/javascript'
-        src='https://platform-api.sharethis.com/js/sharethis.js#property=5f2e5abf393162001291e431&product=inline-share-buttons'
-        async='async'></script>
     <style>
-        /* Banner Sliding */
-        #Gslider .carousel-inner {
-            background: #000000;
-            color: black;
-        }
-
-        #Gslider .carousel-inner {
-            height: 550px;
-        }
-
-        #Gslider .carousel-inner img {
-            width: 100% !important;
-            opacity: .8;
-        }
-
-        #Gslider .carousel-inner .carousel-caption {
-            bottom: 60%;
-        }
-
-        #Gslider .carousel-inner .carousel-caption h1 {
-            font-size: 50px;
-            font-weight: bold;
-            line-height: 100%;
-            color: #F7941D;
-        }
-
-        #Gslider .carousel-inner .carousel-caption p {
-            font-size: 18px;
-            color: black;
-            margin: 28px 0 28px 0;
-        }
-
-        #Gslider .carousel-indicators {
-            bottom: 70px;
-        }
-
-        .caImgz {
-            object-fit: cover;
+        .pagination {
+            display: inline-flex;
         }
     </style>
+
 
 </head>
 
@@ -152,7 +110,7 @@
                                 <li><i class="ti-location-pin"></i> <a href="track">Track Order</a></li>
 
                                 <li><i class="ti-power-off"></i><a href="login.html">Login /</a> <a
-                                        href="registration.html">Register</a></li>
+                                        href="assets/img/Logo-02 png.png">Register</a></li>
                             </ul>
                         </div>
                         <!-- End Top Right -->
@@ -168,8 +126,9 @@
                         <!-- Logo -->
                         <div class="logo">
 
-                            <a href="index.html"><img src="assets/img/Logo-02 png.png" class="image-fluid"
-                                    style="margin-top:-65px" alt="logo"></a>
+                            <a href="index.html"><img
+                                    src="assets/img/Logo-02 png.png"
+                                    class="image-fluid" style="margin-top:-65px" alt="logo"></a>
                         </div>
                         <!--/ End Logo -->
                         <!-- Search Form -->
@@ -305,6 +264,7 @@
                                                     </ul>
                                                 </li>
 
+
                                                 <li class=""><a href="https://pallicraftsltd.com/more-info">More
                                                         Info</a></li>
                                                 <li class=""><a href="blog.html">Blog</a></li>
@@ -324,15 +284,15 @@
         <!--/ End Header Inner -->
     </header>
     <!--/ End Header -->
-
+    <!-- Breadcrumbs -->
     <div class="breadcrumbs">
         <div class="container">
             <div class="row">
                 <div class="col-12">
                     <div class="bread-inner">
                         <ul class="bread-list">
-                            <li><a href="http://127.0.0.1:8000">Home<i class="ti-arrow-right"></i></a></li>
-                            <li class="active"><a href="javascript:void(0);">Login</a></li>
+                            <li><a href="index.html">Home<i class="ti-arrow-right"></i></a></li>
+                            <li class="active"><a href="javascript:void(0);">Blog Grid Sidebar</a></li>
                         </ul>
                     </div>
                 </div>
@@ -341,59 +301,284 @@
     </div>
     <!-- End Breadcrumbs -->
 
-    <!-- Shop Login -->
-    <section class="shop login section">
+    <!-- Start Blog Single -->
+    <section class="blog-single shop-blog grid section">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 offset-lg-3 col-12">
-                    <div class="login-form">
-                        <h2>Register</h2>
-                        <p>Please register in order to checkout more quickly</p>
-                        <!-- Form -->
-                        <form class="form" method="post" action="http://127.0.0.1:8000/user/register">
-                            <input type="hidden" name="_token" value="12r2cwnh3zeJJFofOqhlhvP81ejUZfpXFdCeoWsv">
-                            <div class="row">
-                                <div class="col-12">
-                                    <div class="form-group">
-                                        <label>Your Name<span>*</span></label>
-                                        <input type="text" name="name" placeholder="" required="required" value="">
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="form-group">
-                                        <label>Your Email<span>*</span></label>
-                                        <input type="text" name="email" placeholder="" required="required" value="">
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="form-group">
-                                        <label>Your Password<span>*</span></label>
-                                        <input type="password" name="password" placeholder="" required="required"
-                                            value="">
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="form-group">
-                                        <label>Confirm Password<span>*</span></label>
-                                        <input type="password" name="password_confirmation" placeholder=""
-                                            required="required" value="">
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="form-group login-btn">
-                                        <button class="btn" type="submit">Register</button>
-                                        <a href="http://127.0.0.1:8000/user/login" class="btn">Login</a>
-                                    </div>
+                <div class="col-lg-8 col-12">
+                    <div class="row">
+
+                        <div class="col-lg-6 col-md-6 col-12">
+                            <!-- Start Single Blog  -->
+                            <div class="shop-single-blog">
+                                <img src="assets/img/IMG_2393.JPG" alt="assets/img/IMG_2393.JPG">
+                                <div class="content">
+                                    <p class="date"><i class="fa fa-calendar" aria-hidden="true"></i> 18 Aug, 2020. Tue
+                                        <span class="float-right">
+                                            <i class="fa fa-user" aria-hidden="true"></i>
+                                            Admin
+                                        </span>
+                                    </p>
+                                    <a href="details.html" class="title">Lorem Ipsum is simply</a>
+                                    <p>
+                                    <p><strong style="margin: 0px; padding: 0px; font-family:  Open Sans, Arial,
+                                            sans-serif; font-size: 14px; text-align: justify;">Lorem Ipsum</strong><span
+                                            style="font-family:  Open Sans, Arial, sans-serif; font-size: 14px;
+                                            text-align: justify;"> is simply dummy text of the printing and typesetting
+                                            industry.</span><br></p>
+                                    </p>
+                                    <a href="details.html" class="more-btn">Continue Reading</a>
                                 </div>
                             </div>
-                        </form>
-                        <!--/ End Form -->
+                            <!-- End Single Blog  -->
+                        </div>
+
+                        <div class="col-lg-6 col-md-6 col-12">
+                            <!-- Start Single Blog  -->
+                            <div class="shop-single-blog">
+                                <img src="assets/img/IMG_2393.JPG" alt="assets/img/IMG_2393.JPG">
+                                <div class="content">
+                                    <p class="date"><i class="fa fa-calendar" aria-hidden="true"></i> 15 Aug, 2020. Sat
+                                        <span class="float-right">
+                                            <i class="fa fa-user" aria-hidden="true"></i>
+                                            Admin
+                                        </span>
+                                    </p>
+                                    <a href="details.html" class="title">The standard
+                                        Lorem Ipsum passage,</a>
+                                    <p>
+                                    <p><span style="font-family:  Open Sans, Arial, sans-serif; font-size: 14px;
+                                            text-align: justify;">"Lorem ipsum dolor sit amet, consectetur adipiscing
+                                            elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                                            enim ad minim veniam,</span><br></p>
+                                    </p>
+                                    <a href="details.html" class="more-btn">Continue
+                                        Reading</a>
+                                </div>
+                            </div>
+                            <!-- End Single Blog  -->
+                        </div>
+
+                        <div class="col-lg-6 col-md-6 col-12">
+                            <!-- Start Single Blog  -->
+                            <div class="shop-single-blog">
+                                <img src="assets/img/IMG_2393.JPG" alt="assets/img/IMG_2393.JPG">
+                                <div class="content">
+                                    <p class="date"><i class="fa fa-calendar" aria-hidden="true"></i> 14 Aug, 2020. Fri
+                                        <span class="float-right">
+                                            <i class="fa fa-user" aria-hidden="true"></i>
+                                            Admin
+                                        </span>
+                                    </p>
+                                    <a href="details.html"
+                                        class="title">The standard Lorem Ipsum passage, used since the 1500s</a>
+                                    <p>
+                                    <p><span style="font-family: Open Sans, Arial, sans-serif; font-size: 14px;
+                                            text-align: justify;">"Lorem ipsum dolor sit amet, consectetur adipiscing
+                                            elit,</span><br></p>
+                                    </p>
+                                    <a href="details.html"
+                                        class="more-btn">Continue Reading</a>
+                                </div>
+                            </div>
+                            <!-- End Single Blog  -->
+                        </div>
+
+                        <div class="col-lg-6 col-md-6 col-12">
+                            <!-- Start Single Blog  -->
+                            <div class="shop-single-blog">
+                                <img src="assets/img/IMG_2393.JPG" alt="assets/img/IMG_2393.JPG">
+                                <div class="content">
+                                    <p class="date"><i class="fa fa-calendar" aria-hidden="true"></i> 14 Aug, 2020. Fri
+                                        <span class="float-right">
+                                            <i class="fa fa-user" aria-hidden="true"></i>
+                                            Admin
+                                        </span>
+                                    </p>
+                                    <a href="details.html" class="title">Where can I get some?</a>
+                                    <p>
+                                    <h2
+                                        style="margin-right: 0px; margin-bottom: 10px; margin-left: 0px; padding: 0px; font-family: DauphinPlain; font-size: 24px; line-height: 24px;">
+                                        <span style="font-family:  Open Sans, Arial, sans-serif; font-size: 14px;
+                                            text-align: justify;">It is a long established fact that a reader</span><br>
+                                    </h2>
+                                    </p>
+                                    <a href="details.html" class="more-btn">Continue Reading</a>
+                                </div>
+                            </div>
+                            <!-- End Single Blog  -->
+                        </div>
+
+                        <div class="col-lg-6 col-md-6 col-12">
+                            <!-- Start Single Blog  -->
+                            <div class="shop-single-blog">
+                                <img src="assets/img/IMG_2393.JPG" alt="assets/img/IMG_2393.JPG">
+                                <div class="content">
+                                    <p class="date"><i class="fa fa-calendar" aria-hidden="true"></i> 14 Aug, 2020. Fri
+                                        <span class="float-right">
+                                            <i class="fa fa-user" aria-hidden="true"></i>
+                                            User
+                                        </span>
+                                    </p>
+                                    <a href="details.html" class="title">Where does it come
+                                        from?</a>
+                                    <p>
+                                    <p><span style="font-family:  Open Sans, Arial, sans-serif; font-size: 14px;
+                                            text-align: justify;">Contrary to popular belief, Lorem Ipsum is not simply
+                                            random text. </span><br></p>
+                                    </p>
+                                    <a href="details.html" class="more-btn">Continue Reading</a>
+                                </div>
+                            </div>
+                            <!-- End Single Blog  -->
+                        </div>
+                        <div class="col-12">
+                            <!-- Pagination -->
+
+                            <!--/ End Pagination -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <div class="main-sidebar">
+                        <!-- Single Widget -->
+                        <div class="single-widget search">
+                            <form class="form" method="GET" action="blog/search">
+                                <input type="text" placeholder="Search Here..." name="search">
+                                <button class="button" type="sumbit"><i class="fa fa-search"></i></button>
+                            </form>
+                        </div>
+                        <!--/ End Single Widget -->
+                        <!-- Single Widget -->
+                        <div class="single-widget category">
+                            <h3 class="title">Blog Categories</h3>
+                            <ul class="categor-list">
+                                <form action="blog/filter" method="POST">
+                                    <input type="hidden" name="_token" value="WIPeOVF1KXapY14gtfRWQ3Vq45IWmKyviGUdsnNx">
+                                    <li>
+                                        <a href="blog-cat/post-category">Post Category </a>
+                                    </li>
+                                    <li>
+                                        <a href="blog-cat/enjoy">enjoy </a>
+                                    </li>
+                                    <li>
+                                        <a href="blog-cat/cloths">Cloths </a>
+                                    </li>
+                                    <li>
+                                        <a href="blog-cat/richard">Electronics </a>
+                                    </li>
+                                    <li>
+                                        <a href="blog-cat/contrary">Travel </a>
+                                    </li>
+                                </form>
+
+                            </ul>
+                        </div>
+                        <!--/ End Single Widget -->
+                        <!-- Single Widget -->
+                        <div class="single-widget recent-post">
+                            <h3 class="title">Recent post</h3>
+                            <!-- Single Post -->
+                            <div class="single-post">
+                                <div class="image">
+                                    <img src="assets/img/IMG_2393.JPG" alt="assets/img/IMG_2393.JPG">
+                                </div>
+                                <div class="content">
+                                    <h5><a href="#">Lorem Ipsum is simply</a></h5>
+                                    <ul class="comment">
+                                        <li><i class="fa fa-calendar" aria-hidden="true"></i>18 Aug, 20</li>
+                                        <li><i class="fa fa-user" aria-hidden="true"></i>
+                                            Admin
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- End Single Post -->
+                            <!-- Single Post -->
+                            <div class="single-post">
+                                <div class="image">
+                                    <img src="assets/img/IMG_2393.JPG" alt="assets/img/IMG_2393.JPG">
+                                </div>
+                                <div class="content">
+                                    <h5><a href="#">The standard Lorem Ipsum passage,</a></h5>
+                                    <ul class="comment">
+                                        <li><i class="fa fa-calendar" aria-hidden="true"></i>15 Aug, 20</li>
+                                        <li><i class="fa fa-user" aria-hidden="true"></i>
+                                            Admin
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- End Single Post -->
+                            <!-- Single Post -->
+                            <div class="single-post">
+                                <div class="image">
+                                    <img src="assets/img/IMG_2393.JPG" alt="assets/img/IMG_2393.JPG">
+                                </div>
+                                <div class="content">
+                                    <h5><a href="#">The standard Lorem Ipsum passage, used since the 1500s</a></h5>
+                                    <ul class="comment">
+                                        <li><i class="fa fa-calendar" aria-hidden="true"></i>14 Aug, 20</li>
+                                        <li><i class="fa fa-user" aria-hidden="true"></i>
+                                            Admin
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- End Single Post -->
+                        </div>
+                        <!--/ End Single Widget -->
+                        <!-- Single Widget -->
+                        <!--/ End Single Widget -->
+                        <!-- Single Widget -->
+                        <div class="single-widget side-tags">
+                            <h3 class="title">Tags</h3>
+                            <ul class="tag">
+                                <form action="blog/filter" method="POST">
+                                    <input type="hidden" name="_token" value="WIPeOVF1KXapY14gtfRWQ3Vq45IWmKyviGUdsnNx">
+                                    <li>
+                                    <li>
+                                        <a href="blog-tag/Tag">Tag </a>
+                                    </li>
+                                    </li>
+                                    <li>
+                                    <li>
+                                        <a href="blog-tag/Visit%20nepal%202020">Visit nepal 2020 </a>
+                                    </li>
+                                    </li>
+                                    <li>
+                                    <li>
+                                        <a href="blog-tag/2020">2020 </a>
+                                    </li>
+                                    </li>
+                                    <li>
+                                    <li>
+                                        <a href="blog-tag/Enjoy">Enjoy </a>
+                                    </li>
+                                    </li>
+                                </form>
+                            </ul>
+                        </div>
+                        <!--/ End Single Widget -->
+                        <!-- Single Widget -->
+                        <div class="single-widget newsletter">
+                            <h3 class="title">Newslatter</h3>
+                            <div class="letter-inner">
+                                <h4>Subscribe & get news <br> latest updates.</h4>
+                                <form method="POST" action="subscribe" class="form-inner">
+                                    <input type="hidden" name="_token" value="WIPeOVF1KXapY14gtfRWQ3Vq45IWmKyviGUdsnNx">
+                                    <input type="email" name="email" placeholder="Enter your email">
+                                    <button type="submit" class="btn " style="width: 100%">Submit</button>
+                                </form>
+                            </div>
+                        </div>
+                        <!--/ End Single Widget -->
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!--/ End Login -->
+    <!--/ End Blog Single -->
 
     <!-- Start Footer Area -->
     <footer class="footer">
@@ -409,9 +594,8 @@
                                 <h3 class="text-light">Pallicrafts LTD</h3>
                             </div>
                             <p class="text">
-                                <p>Palli Crafts Limited is to empower existing and future Bangladeshi craftsmen by
-                                    reviving
-                                    traditional skills and enabling them to work for themselves.</p>
+                            <p>Palli Crafts Limited is to empower existing and future Bangladeshi craftsmen by reviving
+                                traditional skills and enabling them to work for themselves.</p>
                             </p>
                             <p class="call">Got Question? Call us 24/7<span><a href="tel:123456789"> +880 1912-143388
                                     </a></span></p>
@@ -473,7 +657,7 @@
                     <div class="row">
                         <div class="col-lg-6 col-12">
                             <div class="left">
-                                <p>Copyright Â© 2022 <a href="https://www.facebook.com/apurbo.cse/"
+                                <p>Copyright © 2022 <a href="https://www.facebook.com/apurbo.cse/"
                                         target="_blank">Apurbo Roy</a> - All Rights Reserved.</p>
                             </div>
                         </div>
@@ -525,24 +709,29 @@
     <!-- Active JS -->
     <script src="assets/js/active.js"></script>
 
+
     <script>
-        setTimeout(function() {
+        setTimeout(function () {
             $('.alert').slideUp();
         }, 5000);
-        $(function() {
+        $(function () {
             // ------------------------------------------------------- //
             // Multi Level dropdowns
             // ------------------------------------------------------ //
-            $("ul.dropdown-menu [data-toggle='dropdown']").on("click", function(event) {
+            $("ul.dropdown-menu [data-toggle='dropdown']").on("click", function (event) {
                 event.preventDefault();
                 event.stopPropagation();
+
                 $(this).siblings().toggleClass("show");
+
+
                 if (!$(this).next().hasClass('show')) {
                     $(this).parents('.dropdown-menu').first().find('.show').removeClass("show");
                 }
-                $(this).parents('li.nav-item.dropdown.show').on('hidden.bs.dropdown', function(e) {
+                $(this).parents('li.nav-item.dropdown.show').on('hidden.bs.dropdown', function (e) {
                     $('.dropdown-submenu .show').removeClass("show");
                 });
+
             });
         });
     </script>
